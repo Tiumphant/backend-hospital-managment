@@ -1,5 +1,5 @@
 const express = require("express");
-const Appointment = require("../model/AppointmentModel");
+const Appointment = require("../model/Appointmentmodel");
 const router = express.Router();
 
 router.use(express.json());
