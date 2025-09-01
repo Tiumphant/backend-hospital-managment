@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
-const Patient = require("../model/patientModel");
+const Patient = require("../model/PatientModel");
 
 router.use(express.json());
 
