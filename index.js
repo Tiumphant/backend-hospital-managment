@@ -7,7 +7,7 @@ const DoctorController = require("./controller/DoctorController.js");
 const UserController = require("./controller/UserController.js");
 const AppointmentController = require("./controller/AppointmentController.js");
 const DepartmentController = require("./controller/DepartmentController.js");
-const SummaryController = require("./controller/SummaryController.js");
+const SummaryController = require("./controller/summaryController.js");
 const path = require("path");
 const app = express();
 
